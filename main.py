@@ -1,6 +1,9 @@
 import os
 import discord
 from discord.ext import commands
+from keep_alive_ping import create_service
+
+service = create_service(ping_interval=600)
 
 token = os.environ.get('TOKEN')
 
@@ -24,3 +27,8 @@ async def ciao(interaction: discord.Interaction):
 if not token:
     raise ValueError("TOKEN non definito")
 bot.run(token)
+
+
+
+
+bot.infinity_polling()
