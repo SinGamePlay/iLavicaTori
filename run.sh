@@ -1,2 +1,2 @@
-python3 main.py &
-wait
+#!/bin/bash
+python3 main.py
