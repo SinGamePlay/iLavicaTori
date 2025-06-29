@@ -1,1 +1,1 @@
-worker: python3 main.py
+web: chmod +x run.sh && ./run.sh
