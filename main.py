@@ -27,8 +27,3 @@ async def ciao(interaction: discord.Interaction):
 if not token:
     raise ValueError("TOKEN non definito")
 bot.run(token)
-
-
-
-
-bot.infinity_polling()
