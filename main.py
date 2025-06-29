@@ -55,4 +55,8 @@ async def on_ready():
 async def ciao(interaction: discord.Interaction):
     await interaction.response.send_message("Ciao anche a te!")
 
+<<<<<<< HEAD
 bot.run(token)
+=======
+bot.run(token)
+>>>>>>> 6565be1a85cd5bb2d41b381573104aecf47c6001
